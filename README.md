@@ -128,11 +128,12 @@ Suba o ambiente rodando : docker-compose up --build
  ```
 
 
+
  ### 8 ) Resolução de erros prováveis : 
 
- #### Erro ao Autorizar a API no botão Authorize : auth errorTypeError: Failed to fetch
+ #### 8.1) Erro ao Autorizar a API no botão Authorize : auth errorTypeError: Failed to fetch
 
- #### 8.1) Verifique o Client Scope  e Mappers :
+ Verifique o Client Scope  e Mappers :
 
  Acesse Client-> client1 -> Client Scopes ; 
 
@@ -142,8 +143,6 @@ Suba o ambiente rodando : docker-compose up --build
  - Mapper type : Audience ; 
    Name : audience ; 
    Include Client : cliente1 ; 
-
-
 
  
 
