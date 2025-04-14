@@ -5,6 +5,13 @@ Esta API é um dos componentes do sistema MVP 2025 POS, responsável pelo gerenc
 API REST desenvolvida em FastAPI para cadastro e controle de usuários.
 
 
+##  Link da apresentação do  MVP no Youtube
+
+Link do Youtube : https://www.youtube.com/watch?v=9ml5-jaHGjw
+
+Link do víeo no Google Drive : https://drive.google.com/drive/folders/1_PzSw0IWEKeUzZF_8yismVr-QliEIIXm
+
+
 ##  Funcionalidades
 
 ### Autenticação OAuth2 via Keycloak.
