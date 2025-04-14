@@ -26,7 +26,7 @@ DELETE /user/{user_id}: Deletar um usuário
 
 ```
 git clone https://github.com/morettonijose/keycloak_users.git
-cd mvp_2025_pos-users
+cd keycloak_users
 ```
 
 
@@ -44,8 +44,15 @@ DATABASE_URL=postgresql://user:password@db-notifications:5432/notifications
 ```
 
 
- ####  3 ) Suba o ambiente com Docker Compose
- 
+####  3 ) Copie os arquivos docker-compose.yml , docker-compose.override.yml , Dockerfile para a pasta raiz do projeto  e retorne para a pasta raiz do projeto
+
+```
+cd ../
+```
+
+
+ ####  4 ) Suba o ambiente com Docker Compose
+
 ```
  docker-compose up --build
  ```
@@ -61,7 +68,7 @@ Banco de Dados PostgreSQL (para usuários e notificações)
 Keycloak Server
 
 
- ####  4 ) Acesse
+ ####  5 ) Acesse
 
 Keycloak Admin Console: http://localhost:8080/
 
@@ -74,8 +81,6 @@ API Notifications Swagger: http://localhost:8001/docs
 
 O projeto já contém:
 
-Dockerfile para cada API
-
-docker-compose.yml para orquestração dos serviços
+Dockerfile para cada API e docker-compose.yml para orquestração dos serviços . Caso você altere o nome das pastas dos repositórios baixados, lembre de alterar o destino do build dos componentes no arquivo docker-compose.yml
 
 Suba o ambiente rodando : docker-compose up --build
