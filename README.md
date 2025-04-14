@@ -146,5 +146,10 @@ Suba o ambiente rodando : docker-compose up --build
 
 
  ### 9 ) Uma vez que você configurou corretamente o Keycloak , então você pode acessar a API, realizar a autenticação no botão 'Authorize' do swagger, e então usar os endpoints da api.
+
+
+  ### 10 ) FLuxograma da Arquitetura do sistema
+ 
+  ![fluxograma arquitetura](./fluxograma.jpg)
  
 
