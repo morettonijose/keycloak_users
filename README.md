@@ -98,6 +98,6 @@ Suba o ambiente rodando : docker-compose up --build
 7.4 ) Crie o usuários que terão acesso : user1 ; 
 
 
-Obs : caso você escolha um  realm ou nome de cliente  diferente , lembre de alterar o arquivo .local.env : 
+Obs : caso você escolha um  realm ou nome de cliente  diferente , lembre de alterar o arquivo .local.env ; 
 
 
